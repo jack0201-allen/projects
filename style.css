@@ -1,15 +1,42 @@
-/*
- _______       _            _     _          ______        _                 _
-(_______)     (_)       _  (_)   | |        (____  \      (_)               | |
- _______  ____ _  ___ _| |_ _  __| |_____    ____)  ) ____ _ _____ ____   __| |
-|  ___  |/ ___) |/___|_   _) |/ _  | ___ |  |  __  ( / ___) (____ |  _ \ / _  |
-| |   | | |   | |___ | | |_| ( (_| | ____|  | |__)  ) |   | / ___ | | | ( (_| |
-|_|   |_|_|   |_(___/   \__)_|\____|_____)  |______/|_|   |_\_____|_| |_|\____|
+#Robot {
+    width: 100%;
+    height: 40%;
+    text-align: center;
+}
 
-Auteur: lee(lee.pro@gmail.com)
-style.css(Ɔ) 2024
-Description : Saisissez la description puis « Tab »
-Créé le :  jeudi 25 janvier 2024 à 14:13:16
-Dernière modification : jeudi 25 janvier 2024 à 14:13:17
-*/
+#Robot input {
+    width: 15%;
+    height: 150px;
+    margin: 2%;
+    border-radius: 5%;
+    border: none;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+    border: 2px solid #AAADB1;
+}
 
+#Robot #KUKA {
+    color: #F76036;
+    background-color: white;
+}
+
+#Robot #FANUC {
+    color: #9C1C28;
+    background-color: #E4FF1A;
+}
+
+#Robot #YASKAWA {
+    color: #2F6C9D;
+    background-color: white;
+}
+
+#Robot #ABB {
+    color: #F22B29;
+    background-color: white;
+}
+
+#Robot #TM {
+    color: #000;
+    background-color: white;
+}
